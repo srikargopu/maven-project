@@ -3,5 +3,5 @@
   tasks:
   - name: copy files
     copy:
-      src: /var/lib/jenkins/workspace/ansible_project/
-      dest: /opt/playbooks/
+      src: /opt/playbooks/webapp.war
+      dest: /var/tmp/
