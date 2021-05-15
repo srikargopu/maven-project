@@ -5,3 +5,4 @@
     copy:
       src: /opt/playbooks/webapp.war
       dest: /var/tmp/
+
