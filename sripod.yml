@@ -28,7 +28,7 @@ spec:
         app: sri
     spec:
       containers:
-      - image: srikargopu/sri_repo
+      - image: srikargopu/sri_repo:latest
         imagePullPolicy: IfNotPresent
         name: sri-repo-6x8tb
         resources: {}
