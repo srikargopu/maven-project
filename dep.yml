@@ -1,0 +1,4 @@
+---
+- hosts: localhost
+  tasks:
+   - shell: kubectl apply -f /var/lib/jenkins/workspace/First_Project/sripod.yml
